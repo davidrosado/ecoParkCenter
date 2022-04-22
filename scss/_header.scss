@@ -1,5 +1,10 @@
 #header-site {
     padding: 0.75rem 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
     #identidad-site {
         .texto-header {
             margin-left: 2rem;
@@ -10,6 +15,10 @@
             @media (max-width: 991px) {
                 display: none;
             }
+        }
+        @media (max-width: 1360px) {
+            font-size: .8em;
+            img {max-width: 120px;}
         }
 
     }
@@ -41,7 +50,16 @@
                     font-weight: 800;
                     padding: 0.5rem 1rem;
                     text-align: center;
+                    @media (max-width: 1360px) {
+                        font-size: .8em;
+                    }
                 }
+                @media (max-width: 1360px) {
+                    margin-left: .5rem;
+                }
+            }
+            @media (max-width: 1360px) {
+                font-size: .8em;
             }
             @media (max-width: 991px) {
                 flex-direction: column;
@@ -57,5 +75,11 @@
                 }
             }
         }
+    }
+    &.menu-fijo {
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 }

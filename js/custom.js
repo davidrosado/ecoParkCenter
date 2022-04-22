@@ -32,12 +32,3 @@ $('a.go-to').click(function() {
     }
   }
 });   
-
-/*
-$(window).scroll(function(){
-    if($(window).scrollTop() > 180){
-      $('#cabecera-site').addClass('menu-fijo')
-    } else {
-      $('#cabecera-site').removeClass('menu-fijo')
-    }
-}) */

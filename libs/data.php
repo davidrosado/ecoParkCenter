@@ -4,6 +4,7 @@
 $arrayServicios = array(
     0 => array (
         'titulo' => '',
+        'slug' => 'servicio-1',
         'parrafo' => 'Necesitas una oficina, un showroom y una bodega para tu negocio. Todo eso EcoparkCenter lo tiene en un solo lugar para que comiences ahora mismo. 
         Un espacio privado con las ventajas y seguridad de una gran empresa que se ajusta a lo que necesites.',
         'parrafo_2' => '',
@@ -13,6 +14,7 @@ $arrayServicios = array(
     ),
     1 => array(
         'titulo' => 'LO TUYO ES UNA<br> STORE OFFICE',
+        'slug' => 'servicio-2',
         'parrafo' => 'EcoParkCenter es un Moderno y Seguro Condominio de Bodegas + Showroom + Oficinas Premium que se entregan 100% habilitadas para el almacenamiento y funcionamiento de actividades productivas acreditadas como INOFENSIVAS por el Servicio de Salud.',
         'parrafo_2' => 'EcoParkCenter está ubicado en la mejor zona industrial de Quilicura con conectividad directa a Panamerica Norte, apunta a empresas que buscan optimizar sus procesos en un mismo espacio; facilitando la integración de la gestión comercial, administrativa y logística de Última Milla.',
         'parrafo_3' => 'Los módulos van desde los 350 a 490 m2 con oficinas desde 60 m2 habilitadas con buen estándar de terminaciones para una fácil instalación y operación inmediata.',
@@ -21,6 +23,7 @@ $arrayServicios = array(
     ),
     2 => array(
         'titulo' => 'SEGURIDAD<br> Y VIGILANCIA',
+        'slug' => 'seguridad-y-vigilancia',
         'parrafo' => 'La seguridad es un factor fundamental para el óptimo funcionamiento de las empresas, por lo que hemos incorporado equipamiento de alto estandar, sistemas de disuación y prevención de última generación. Es un condominio cerrado con muro perimetral con contención y cerco eléctrico, cámaras de monitoreo y sistemas antialunizaje.',
         'parrafo_2' => '',
         'parrafo_3' => '',        
@@ -45,6 +48,40 @@ $arrayWidgets = array(
         'parrafo' => 'Galpones diseñados para optimizar todos tus espacios aprovechando cada centímetro, con oficinas habilitadas para comenzar a operar en el momento que estés listo.',    
         'imagen_desktop'    => 'images/ic-f3.svg'
     )
-)
+);
 
+$arrayLeyendas = array(
+    0 => array (
+        'titulo' => 'ECOPARKCENTER<br> LAS ESTERAS',
+        'imagen_desktop'  => 'images/s1.svg',
+    ),
+    1 => array (
+        'titulo' => 'ECOPARKCENTER LAUTARO <span>(Futuro Proyecto 70 Bodegas)</span>',
+        'imagen_desktop'    => 'images/s2.svg',
+    ),
+    2 => array (
+        'titulo' => 'CENTRO EMPRESARIAL<br> “EL CORTIJO”',
+        'imagen_desktop'    => 'images/s3.svg',
+    ),
+    3 => array (
+        'titulo' => 'EASTON OUTLET',
+        'imagen_desktop'    => 'images/s4.svg',
+    ),
+    4 => array (
+        'titulo' => 'ARAUCO PREMIUM OUTLET',
+        'imagen_desktop'    => 'images/s5.svg',
+    ),
+    5 => array (
+        'titulo' => 'MALL PLAZA NORTE',
+        'imagen_desktop'    => 'images/s6.svg',
+    ),
+    6 => array (
+        'titulo' => 'ENLACE RUTA 5',
+        'imagen_desktop'    => 'images/s7.svg',
+    ),
+    0 => array (
+        'titulo' => 'ESTACION DE METRO<br> “LOS LIBERTADORES”',
+        'imagen_desktop'    => 'images/s8.svg',
+    ),                            
+)
 ?>

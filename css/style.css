@@ -6861,8 +6861,17 @@ body {
   padding-right: 3rem;
 }
 
+img {
+  max-width: 100%;
+}
+
 #header-site {
   padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
 #header-site #identidad-site .texto-header {
   margin-left: 2rem;
@@ -6874,6 +6883,14 @@ body {
 @media (max-width: 991px) {
   #header-site #identidad-site .texto-header {
     display: none;
+  }
+}
+@media (max-width: 1360px) {
+  #header-site #identidad-site {
+    font-size: 0.8em;
+  }
+  #header-site #identidad-site img {
+    max-width: 120px;
   }
 }
 #header-site #menu-site {
@@ -6908,6 +6925,21 @@ body {
   padding: 0.5rem 1rem;
   text-align: center;
 }
+@media (max-width: 1360px) {
+  #header-site #menu-site #menu-principal .item-menu .button-cotizar {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 1360px) {
+  #header-site #menu-site #menu-principal .item-menu {
+    margin-left: 0.5rem;
+  }
+}
+@media (max-width: 1360px) {
+  #header-site #menu-site #menu-principal {
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 991px) {
   #header-site #menu-site #menu-principal {
     flex-direction: column;
@@ -6922,6 +6954,12 @@ body {
   #header-site #menu-site #menu-principal .item-menu .link-item {
     display: block;
   }
+}
+#header-site.menu-fijo {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .slider-home {
@@ -7111,13 +7149,16 @@ body {
   }
 }
 
+.contenedor-formulario {
+  position: relative;
+}
 .contenedor-formulario .formulario-cotizar {
   position: absolute;
-  right: 2.5rem;
+  right: 5%;
   background: #242424;
   padding: 1.2rem 1.5rem;
-  width: 21.16rem;
-  min-width: 21.16rem;
+  width: 90%;
+  min-width: 90%;
   bottom: 0;
 }
 @media (max-width: 991px) {
@@ -7129,7 +7170,7 @@ body {
 }
 .contenedor-formulario .formulario-cotizar h2, .contenedor-formulario .formulario-cotizar .h2 {
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 900;
   margin-bottom: 15px;
   text-align: center;
@@ -7143,7 +7184,6 @@ body {
   margin-bottom: 15px;
 }
 .contenedor-formulario .formulario-cotizar .form-group label {
-  font-size: 0.8em;
   font-weight: 300;
   color: #fff;
   display: block;
@@ -7155,13 +7195,11 @@ body {
   border: none;
   color: #fff;
   padding: 5px 15px;
-  font-size: 0.8em;
   font-weight: 200;
 }
 .contenedor-formulario .formulario-cotizar .form-group select {
   background-color: #343131;
   color: #fff;
-  font-size: 0.8em;
   font-weight: 200;
   padding: 5px 15px;
   width: 100%;
@@ -7171,12 +7209,12 @@ body {
 }
 .contenedor-formulario .formulario-cotizar .form-submit .btn_submit {
   border: none;
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 900;
   color: #000;
   background: #8BC540;
   border-radius: 0.4rem;
-  padding: 0.45rem 1.2rem 0.35rem;
+  padding: 10px 25px;
   cursor: pointer;
 }
 .contenedor-formulario .formulario-cotizar .form-submit .btn_submit:hover {
@@ -7188,6 +7226,7 @@ body {
   align-items: center;
   color: #7C7C7C;
   font-weight: bold;
+  margin-top: 15px;
 }
 .contenedor-formulario .formulario-cotizar .boton_wsp img {
   margin-right: 10px;
@@ -7217,16 +7256,21 @@ body {
   line-height: 1;
   margin-bottom: 2rem;
 }
+@media (max-width: 1376px) {
+  #servicios .item-servicio .texto-item-servicio .titulo-item {
+    font-size: 2em;
+  }
+}
 @media (max-width: 991px) {
   #servicios .item-servicio .texto-item-servicio .titulo-item {
     font-size: 1.5em;
   }
 }
 #servicios .item-servicio .texto-item-servicio p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
 }
-@media (max-width: 991px) {
+@media (max-width: 1376px) {
   #servicios .item-servicio .texto-item-servicio p {
     font-size: 1em;
   }
@@ -7235,7 +7279,7 @@ body {
   min-width: 60%;
   width: 60%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   #servicios .item-servicio .imagen-item-servicio {
     min-width: 100%;
     width: 100%;
@@ -7250,16 +7294,16 @@ body {
 #servicios .item-servicio:nth-child(2n) {
   flex-direction: row-reverse;
 }
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   #servicios .item-servicio {
     flex-wrap: wrap;
   }
 }
 #servicios #servicio-1 .texto-item-servicio p {
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.5;
 }
-@media (max-width: 991px) {
+@media (max-width: 1376px) {
   #servicios #servicio-1 .texto-item-servicio p {
     font-size: 1em;
   }
@@ -7271,21 +7315,34 @@ body {
   min-width: 62.45%;
   width: 62.4%;
 }
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   #servicios #servicio-2 .imagen-item-servicio {
     min-width: 100%;
     width: 100%;
   }
 }
-#servicios #servicio-3 .imagen-item-servicio {
+#servicios #seguridad-y-vigilancia .imagen-item-servicio {
   min-width: 67%;
   width: 67%;
 }
-@media (max-width: 991px) {
-  #servicios #servicio-3 .imagen-item-servicio {
+@media (max-width: 1200px) {
+  #servicios #seguridad-y-vigilancia .imagen-item-servicio {
     min-width: 100%;
     width: 100%;
   }
+}
+
+.datos-mapa h2, .datos-mapa .h2 {
+  font-size: 2.8em;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 2rem;
+}
+.datos-mapa .datos {
+  list-style: none;
+}
+.datos-mapa .datos li {
+  display: flex;
 }
 
 #footer-site {

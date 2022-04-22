@@ -3,13 +3,14 @@
         <?php foreach ($arrayServicios as $key => $servicio) {?>
             <?php
                 $titulo =  $servicio['titulo'];
+                $slug =  $servicio['slug'];
                 $parrafo = $servicio['parrafo'];
                 $parrafo_2 = $servicio['parrafo_2'];
                 $parrafo_3 = $servicio['parrafo_3'];
                 $imagen_desktop = $servicio['imagen_desktop'];
                 $imagen_mobile = $servicio['imagen_mobile'];
             ?>
-            <div id="servicio-<?php echo $key + 1?>" class="item-servicio  bg-oscuro">
+            <div id="<?php echo $slug?>" class="item-servicio  bg-oscuro">
                 <div class="texto-item-servicio">
                     <?php if ($titulo) :?> <h2 class="titulo-item color-verde"> <?php echo $titulo ?></h2> <?php endif ?>
                     <?php if ($parrafo) :?> <p><?php echo $parrafo  ?></p> <?php endif ?>     

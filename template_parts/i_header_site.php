@@ -9,11 +9,11 @@
             </div>
             <div id="menu-site" class="col-md-6">
                 <ul id="menu-principal" class="d-flex">
-                    <li class="item-menu"><a href="#" class="go-to link-item active">PROYECTO</a></li>
-                    <li class="item-menu"><a href="#" class="go-to link-item">SEGURIDAD</a></li>
+                    <li class="item-menu"><a href="#banner" class="go-to link-item active">PROYECTO</a></li>
+                    <li class="item-menu"><a href="#seguridad-y-vigilancia" class="go-to link-item">SEGURIDAD</a></li>
                     <li class="item-menu"><a href="#" class="go-to link-item">PLANTA</a></li>
                     <li class="item-menu"><a href="#" class="go-to link-item">UBICACION</a></li>
-                    <li class="item-menu"><a href="#" class="go-to link-item button-cotizar">COTIZA AQUÍ</a></li>
+                    <li class="item-menu"><a href="#banner" class="go-to link-item button-cotizar">COTIZA AQUÍ</a></li>
                 </ul>
             </div>
         </div>

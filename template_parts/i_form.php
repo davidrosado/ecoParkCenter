@@ -1,5 +1,5 @@
-    <div class="contenedor-formulario col-md-4">
-        <div class="formulario-cotizar">
+    <div id="formulario-home" class="contenedor-formulario col-md-4">
+        <div  class="formulario-cotizar">
           <h2>ARRIENDO DE BODEGAS<br>
           <span>DESDE 350 A 490 M2</span></h2>
           <form id="form-cotizar" method="POST" href="#">
