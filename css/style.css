@@ -6899,6 +6899,7 @@ img {
   display: flex;
 }
 #header-site #menu-site #menu-principal {
+  display: flex;
   list-style: none;
   margin-bottom: 0;
   text-align: right;
@@ -6942,10 +6943,14 @@ img {
 }
 @media (max-width: 991px) {
   #header-site #menu-site #menu-principal {
+    display: none;
     flex-direction: column;
     padding: 0;
     width: 100%;
     text-align: left;
+  }
+  #header-site #menu-site #menu-principal.show-menu {
+    display: flex;
   }
   #header-site #menu-site #menu-principal .item-menu {
     margin: 5px 0;
@@ -6960,6 +6965,21 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+}
+#header-site #open-menu {
+  display: none;
+}
+@media (max-width: 991px) {
+  #header-site #open-menu {
+    background: none;
+    border: none;
+    color: #fff;
+    display: block;
+    font-size: 1.5em;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
 }
 
 .slider-home {

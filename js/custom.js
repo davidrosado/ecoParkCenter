@@ -32,3 +32,8 @@ $('a.go-to').click(function() {
     }
   }
 });   
+
+document.getElementById("open-menu").addEventListener("click", function( event ) {
+  let menu = document.getElementById('menu-principal')
+  menu.classList.toggle('show-menu')
+}, false);

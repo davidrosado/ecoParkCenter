@@ -8,7 +8,11 @@
                 <div class="texto-header color-blanco">BODEGA + OFICINA PREMIUM + SHOWROOM <span>TODO EN UN SOLO LUGAR</span></div>
             </div>
             <div id="menu-site" class="col-md-6">
-                <ul id="menu-principal" class="d-flex">
+                <button id="open-menu" class="btn_menu">
+                    <i class="fas fa-bars"></i>
+                </button>    
+
+                <ul id="menu-principal">
                     <li class="item-menu"><a href="#banner" class="go-to link-item active">PROYECTO</a></li>
                     <li class="item-menu"><a href="#seguridad-y-vigilancia" class="go-to link-item">SEGURIDAD</a></li>
                     <li class="item-menu"><a href="#" class="go-to link-item">PLANTA</a></li>
