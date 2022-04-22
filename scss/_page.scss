@@ -1,0 +1,51 @@
+body {
+    color: $principal;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.bg-principal {
+    background-color: $principal;
+}
+
+.bg-oscuro {
+    background-color: $oscuro;
+}
+
+.bg-blanco {
+    background-color: $blanco;
+}
+
+.bg-verde {
+    background-color: $verde;
+}
+
+.bg-negro {
+    background-color: $negro;
+}
+
+.color-principal {
+    color: $principal;
+}
+
+.color-oscuro {
+    color: $oscuro;
+}
+
+.color-blanco {
+    color: $blanco;
+}
+
+.color-verde {
+    color: $verde;
+}
+
+.color-negro {
+    color: $negro;
+}
+.wrap {
+    padding-left: 3rem ;
+    padding-right: 3rem;
+}

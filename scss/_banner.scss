@@ -1,0 +1,131 @@
+.slider-home {
+    margin-bottom: 0!important;
+    position: relative;
+    .slick-dots {
+        bottom: 25px;
+        li {
+            button:before {
+                color: $blanco;
+                font-size: 20px;
+                opacity: .5;
+            }
+            &.slick-active {
+                button:before {
+                    color: $blanco;
+                    opacity: 1;
+                }
+            }
+        }
+
+    }
+    .item {
+        position: relative;
+
+        picture {
+            background: $negro;
+            display: block;
+
+            img {
+                width: 100%;
+                vertical-align: bottom;
+                height: calc(100vh - 14rem);
+                min-height: 20rem;
+                object-fit: cover;
+                object-position: center;
+
+                @media (max-width: 1550px) {
+                    height: calc(100vh - 14rem);
+                }
+
+                @media (max-width: 768px) {
+                    height: 380px;
+                    object-fit: cover;
+                }
+
+                @media (max-width: 550px) {
+                    opacity: .8;
+                }
+            }
+        }
+
+        .textos-banner {
+            color: $blanco;
+            padding: 15px 65px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+
+            h2 {
+                font-size: 3.5em;
+                color: #fff;
+                font-weight: 900;
+                line-height: .9;
+                margin-bottom: 1.5rem;
+                span {
+                    font-size: .7em;
+                }
+            }
+            h3 {
+                font-size: 2.7em;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1.5em;
+                font-weight: 600;
+            }
+            .small-texto {
+                position: relative;
+            }
+            .flecha-lateral {
+                position: absolute;
+                left: -65px;
+            }
+            @media (max-width: 768px) {
+            }
+        }
+        .texto-2 {
+            padding: 0;
+            .top-textos {
+                h3 {
+                    background: #000000c4;
+                    padding-left: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 78px;
+                    margin-bottom: 0;
+                }
+        
+                .flecha-lateral {
+                    left: 0;
+                }
+        
+                ul {
+                    background: #000000ad;
+                    list-style: none;
+                    padding-left: 70px;
+        
+                    li {
+                        align-items: center;
+                        display: flex;
+                        height: 40px;
+                        margin-bottom: 5px;
+                        width: 100%;
+        
+                        span {
+                            width: 50px;
+                            margin-right: 10px;
+                            display: flex;
+                            justify-content: flex-end;
+                        }
+                    }
+                }
+            }
+        
+            .bottom-textos {
+                padding-left: 70px;
+            }
+        }
+    }
+}

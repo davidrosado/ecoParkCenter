@@ -1,0 +1,54 @@
+#servicios {
+    .item-servicio {
+        align-items: center;
+        display: flex;
+        .texto-item-servicio {
+            line-height: 1.1;
+            padding: 2rem 3.8rem;
+            .titulo-item {
+                font-size: 2.8em;
+                font-weight: 800;
+                line-height: 1;
+                margin-bottom: 2rem;;
+            }
+            p {
+                font-size: 1.5em;
+                font-weight: 300;
+            }
+        }
+        .imagen-item-servicio {
+            min-width: 60%;
+            width: 60%;
+            img {
+                height: auto;
+                max-width: 100%;
+                vertical-align: bottom;
+                width: 100%;
+            }
+        }
+        &:nth-child(2n) {
+            flex-direction: row-reverse;
+        }
+    }
+    #servicio-1 {
+        .texto-item-servicio {
+            p {
+                font-size: 1.8em;
+                line-height: 1.5;
+            }
+        }
+    }
+    #servicio-2 {
+        text-align: right;
+        .imagen-item-servicio {
+            min-width: 62.45%;
+            width: 62.4%
+        }
+    }
+    #servicio-3 {
+        .imagen-item-servicio {
+            min-width: 67%;
+            width: 67%
+        }
+    }
+}
