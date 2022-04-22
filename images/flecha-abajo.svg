@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175.958" height="139.282" viewBox="0 0 175.958 139.282">
+  <defs>
+    <filter id="Trazado_8" x="0" y="40.454" width="175.958" height="98.828" filterUnits="userSpaceOnUse">
+      <feOffset dy="21" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_6" data-name="Rectángulo 6" width="107.854" height="134" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_19" data-name="Grupo 19" transform="translate(-40.042 -745)">
+    <g transform="matrix(1, 0, 0, 1, 40.04, 745)" filter="url(#Trazado_8)">
+      <path id="Trazado_8-2" data-name="Trazado 8" d="M-752,5878l39.243,67.838-38.044,66.12h-18.784l39.138-67.47-37.8-66.487Z" transform="translate(6032.96 810.04) rotate(90)" fill="#606060"/>
+    </g>
+    <g id="Grupo_16" data-name="Grupo 16" transform="translate(2046.896 1426.704) rotate(90)">
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(-681.704 1851.896)" clip-path="url(#clip-path)">
+        <path id="Trazado_1" data-name="Trazado 1" d="M-626.476,1987.118l41.35-71.616-38.907-67.384-48.292-3.18,40.85,70.75-40.85,70.752S-654.488,1986.725-626.476,1987.118Z" transform="translate(678.525 -1849.538)" fill="#3b683d"/>
+        <path id="Trazado_2" data-name="Trazado 2" d="M-603.363,1986.715l40.221-69.66-40.984-70.982-17.235-1.135,40.851,70.75-40.851,70.752S-614.79,1986.546-603.363,1986.715Z" transform="translate(661.253 -1849.538)" fill="#9dc44d"/>
+      </g>
+    </g>
+  </g>
+</svg>
