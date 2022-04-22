@@ -1,9 +1,9 @@
-<section id="mapa-site" class="bg-oscuro">
+<section id="mapa-site">
     <div class="contenedor d-flex flex-wrap">
-        <div class="image-mapa col-md-8 px-0">
+        <div class="image-mapa px-0">
             <img src="images/mapa-dark.jpg" alt="">
         </div>
-        <div class="datos-mapa col-md-4">
+        <div class="datos-mapa">
             <h2 class="color-verde">MAPA DE<br> CONECTIVIDAD</h2>
             <div class="datos">
                 <?php if(!empty($arrayLeyendas)):?>
@@ -21,33 +21,33 @@
                             </li>  
                         <?php }?>
                     </ul>
-                <?php endif ?>     
+                <?php endif ?>   
+            </div>  
 
-                <div class="tiempos">
-                    <h3>TIEMPOS DE TRASLADO</h3>
-                    <div class="w-tiempos">
+            <div class="tiempos color-blanco">
+                <h3>TIEMPOS DE TRASLADO</h3>
+                <ul class="listado-tiempos">
                     <li class="item">
                         <p>SANTIAGO CENTRO</p>
                         <p class="tiempo">20 MIN</p>
-                    </div>
+                    </li>
                     <li class="item">
                         <p>PROVIDENCIA</p>
                         <p class="tiempo">15 MIN</p>
-                    </div>
+                    </li>
                     <li class="item">
                         <p>VITACURA / LAS CONDES</p>
                         <p class="tiempo">15 MIN</p>
-                    </div>
+                    </li>
                     <li class="item">
                         <p>LA DEHESA</p>
                         <p class="tiempo">25 MIN</p>
-                    </div>
+                    </li>
                     <li class="item">
                         <p>AEROPUERTO</p>
                         <p class="tiempo">15 MIN</p>
-                    </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </div>  
     </div>  

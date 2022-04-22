@@ -79,7 +79,7 @@ $arrayLeyendas = array(
         'titulo' => 'ENLACE RUTA 5',
         'imagen_desktop'    => 'images/s7.svg',
     ),
-    0 => array (
+    7 => array (
         'titulo' => 'ESTACION DE METRO<br> “LOS LIBERTADORES”',
         'imagen_desktop'    => 'images/s8.svg',
     ),                            
