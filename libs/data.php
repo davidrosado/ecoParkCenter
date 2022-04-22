@@ -27,5 +27,24 @@ $arrayServicios = array(
         'imagen_desktop'    => 'images/ser3.png',
         'imagen_mobile'    => 'images/ser3-mobile.png',
     )
+);
+
+$arrayWidgets = array(
+    0 => array (
+        'titulo' => 'UBICACIÓN<br>PRIVILEGIADA',
+        'parrafo' => 'Con acceso inmediato a autopistas, camino al aeropuerto, importantes áreas comerciales e industriales. Hazlo todo en un solo viaje a tu nueva oficina-showroom-bodega.' ,
+        'imagen_desktop'    => 'images/ic-f1.svg',
+    ),
+    1 => array(
+        'titulo' => 'SEGURIDAD DE <br>ALTO NIVEL',
+        'parrafo' => 'Contamos con un sistema de vigilancia cerrado de última generación, control de acceso, cerco eléctrico, monitoreo en línea y un sistema antialunijaze para darte la tranquilidad de que necesitas.',
+        'imagen_desktop'    => 'images/ic-f2.svg',
+    ),
+    2 => array(
+        'titulo' => 'ARQUITECTURA<br>VANGUARDISTA',
+        'parrafo' => 'Galpones diseñados para optimizar todos tus espacios aprovechando cada centímetro, con oficinas habilitadas para comenzar a operar en el momento que estés listo.',    
+        'imagen_desktop'    => 'images/ic-f3.svg'
+    )
 )
+
 ?>

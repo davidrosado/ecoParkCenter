@@ -7,7 +7,11 @@
                 font-weight: 600;
                 margin-left: .5rem;
             }
+            @media (max-width: 991px) {
+                display: none;
+            }
         }
+
     }
     #menu-site {
         align-items: center;
@@ -39,7 +43,19 @@
                     text-align: center;
                 }
             }
-
+            @media (max-width: 991px) {
+                flex-direction: column;
+                padding: 0;
+                width: 100%;
+                text-align: left;
+                .item-menu {
+                    margin: 5px 0;
+                    width: 100%;
+                    .link-item {
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }

@@ -55,7 +55,9 @@
             top: 50%;
             transform: translateY(-50%);
             left: 0;
-
+            @media (max-width: 991px) {
+                padding: 15px 30px;
+            }
             h2 {
                 font-size: 3.5em;
                 color: #fff;
@@ -65,14 +67,23 @@
                 span {
                     font-size: .7em;
                 }
+                @media (max-width: 991px) {
+                    font-size: 2em;
+                }
             }
             h3 {
                 font-size: 2.7em;
                 font-weight: 700;
+                @media (max-width: 991px) {
+                    font-size: 1.5em;
+                }
             }
             p {
                 font-size: 1.5em;
                 font-weight: 600;
+                @media (max-width: 991px) {
+                    font-size: 1em;
+                }
             }
             .small-texto {
                 position: relative;

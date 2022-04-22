@@ -37,6 +37,7 @@
 
     <?php include 'template_parts/i_header_site.php' ?>
     <?php include 'template_parts/i_banner_home.php' ?>
+    <?php include 'template_parts/i_widgets_form.php' ?>
     <?php include 'template_parts/i_servicios.php' ?>
     <?php include 'template_parts/i_footer_site.php' ?>
 
