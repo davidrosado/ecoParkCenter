@@ -7368,6 +7368,9 @@ img {
     width: 100%;
     min-width: 100%;
   }
+  #mapa-site .image-mapa img {
+    height: auto;
+  }
 }
 #mapa-site .datos-mapa {
   padding: 50px 50px;
